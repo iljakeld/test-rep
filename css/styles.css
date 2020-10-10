@@ -1,4 +1,8 @@
 body {
-    background-color: teal;
-    color: #fff;
+    background-color:#a2a2a2;
+    color:#f80606;
+}
+.left-side {
+    background-color: bisque;
+    display: flexbox ;
 }
