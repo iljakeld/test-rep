@@ -1,8 +1,56 @@
+@import "./imported.css";
+
+[href="http://www.google.com"] {
+    color:green;
+}
+
+/* .main-link { */
+    color: black;
+    text-decoration: line-through;
+}
+[type="text"] {
+    color: red;
+}
+
 body {
     background-color:#a2a2a2;
     color:#f80606;
+    max-width: 10vmax;
+    max-height: 10vmax;
 }
 .left-side {
     background-color: bisque;
     display: flexbox ;
+}
+.main-body {
+
+    background-color: burlywood;
+    width: 1000%;
+    height: 1000%;
+}
+p {
+    color: rgb(255, 0, 212);
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+.menu {
+    background: #eb0a0a;
+    font-size: 30px;
+}
+
+.active {
+    text-shadow: teal;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-align: center;
+}
+#menu-box {
+    text-transform: capitalize;
+}
+.menu-item {
+    font-weight: bold;
+}
+div p {
+    color: indigo;
 }
